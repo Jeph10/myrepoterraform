@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "launch-wizard-6"
+  default     = "my-security-group-for-jenkins-ec2"
 }
 
 variable "tag_name" {
