@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "launch-wizard-7"
+  default     = "launch-wizard-6"
 }
 
 variable "tag_name" {
